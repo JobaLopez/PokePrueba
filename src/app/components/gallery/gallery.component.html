@@ -1,0 +1,11 @@
+<header class="header">
+    <h1 class="header__title">
+        Prueba de NgOptimize
+    </h1>
+</header>
+<!-- <section style="padding: 30px;">
+    <app-card [index]="cards.indexOf(32)+1"/>
+</section> -->
+<section class="gallery-grid">
+    <app-card *ngFor="let card of cards" [index]="cards.indexOf(card)+1"/>
+</section>
