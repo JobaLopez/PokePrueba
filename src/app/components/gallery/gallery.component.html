@@ -3,9 +3,11 @@
         Prueba de NgOptimize
     </h1>
 </header>
-<!-- <section style="padding: 30px;">
-    <app-card [index]="cards.indexOf(32)+1"/>
-</section> -->
-<section class="gallery-grid">
-    <app-card *ngFor="let card of cards" [index]="cards.indexOf(card)+1"/>
-</section>
+<div class="wrapper">
+    <!-- <section style="padding: 30px;">
+        <app-card [index]="153"/>
+    </section> -->
+    <section class="gallery-grid">
+        <app-card *ngFor="let card of cards" [index]="cards.indexOf(card)+1"/>
+    </section>
+</div>
